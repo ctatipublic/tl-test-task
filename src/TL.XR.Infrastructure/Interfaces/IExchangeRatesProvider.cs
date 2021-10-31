@@ -5,6 +5,6 @@ namespace TL.XR.Infrastructure.Interfaces
 {
     public interface IExchangeRatesProvider
     {
-        Task<Dictionary<string, string>> GetExchangeRatesAsyncForIsoCurrencyAsync(string isoCurrency);
+        Task<Dictionary<string, decimal>> GetExchangeRatesAsyncForIsoCurrencyAsync(string isoCurrency);
     }
 }

@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TL.XR", "TL.XR\TL.XR.csproj", "{29AF1C00-25AB-4759-84BB-799685E29080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.Infrastructure", "TL.XR.Infrastructure\TL.XR.Infrastructure.csproj", "{83AE655B-E52F-44B0-B5FB-C16CCCCA3D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TL.XR.Infrastructure", "TL.XR.Infrastructure\TL.XR.Infrastructure.csproj", "{83AE655B-E52F-44B0-B5FB-C16CCCCA3D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.Core", "TL.XR.Core\TL.XR.Core.csproj", "{2218D7A7-596C-43D1-8AD9-616864553779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TL.XR.Core", "TL.XR.Core\TL.XR.Core.csproj", "{2218D7A7-596C-43D1-8AD9-616864553779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.TLExchangeRatesProvider", "TL.XR.TLExchangeRatesProvider\TL.XR.TLExchangeRatesProvider.csproj", "{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TL.XR.TLExchangeRatesProvider", "TL.XR.TLExchangeRatesProvider\TL.XR.TLExchangeRatesProvider.csproj", "{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.Core.Tests", "TL.XR.Core.Tests\TL.XR.Core.Tests.csproj", "{3880C365-3F56-445B-AF80-D605ABEF67DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TL.XR.Core.Tests", "TL.XR.Core.Tests\TL.XR.Core.Tests.csproj", "{3880C365-3F56-445B-AF80-D605ABEF67DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.TLExchangeRatesProviderTests", "TL.XR.TLExchangeRatesProviderTests\TL.XR.TLExchangeRatesProviderTests.csproj", "{12626B97-C7EA-4ECA-93C9-E2F3A8AFB41D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12626B97-C7EA-4ECA-93C9-E2F3A8AFB41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12626B97-C7EA-4ECA-93C9-E2F3A8AFB41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12626B97-C7EA-4ECA-93C9-E2F3A8AFB41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12626B97-C7EA-4ECA-93C9-E2F3A8AFB41D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
