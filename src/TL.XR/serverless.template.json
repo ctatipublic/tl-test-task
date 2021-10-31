@@ -8,6 +8,7 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
+        "FunctionName": "TLXR-function",
         "Handler": "TL.XR::TL.XR.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnetcore3.1",
         "CodeUri": "",
