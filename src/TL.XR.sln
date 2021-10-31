@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.Core", "TL.XR.Core\TL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.TLExchangeRatesProvider", "TL.XR.TLExchangeRatesProvider\TL.XR.TLExchangeRatesProvider.csproj", "{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TL.XR.Core.Tests", "TL.XR.Core.Tests\TL.XR.Core.Tests.csproj", "{3880C365-3F56-445B-AF80-D605ABEF67DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7969D5-A59D-4FC6-B5C4-ADEAF453A0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3880C365-3F56-445B-AF80-D605ABEF67DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
