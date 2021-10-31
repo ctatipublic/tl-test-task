@@ -1,16 +1,10 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TL.XR.Core;
 
 namespace TL.XR
 {
@@ -27,6 +21,7 @@ namespace TL.XR
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTlXrCore();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -35,13 +30,10 @@ namespace TL.XR
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseHttpsRedirection();
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
